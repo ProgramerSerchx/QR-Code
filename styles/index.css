@@ -1,0 +1,38 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+.card-tittle{
+    line-height: 15px;
+    font-weight: 700;
+    color:hsl(218, 44%, 22%)
+}
+
+.presentation-card{
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 150px;
+    margin-left: 710px;
+    margin-right: 710px;
+    padding-bottom: 60px;
+    background-color: white;
+    text-align: center;
+}
+
+.card-description{
+    margin-top: 30px;
+    font-size: 20px;
+    color: hsl(214, 9%, 50%);
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.QR-image{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 360px
+}
+
