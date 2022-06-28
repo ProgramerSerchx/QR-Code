@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -11,23 +11,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/50962791c1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="presentation-card">
-        <div class="picture-container">
-            <img class="QR-image" src="images/image-qr-code.png" alt="QR Code">
+    <div class="container">
+        <div class="card">  <!--Block-->
+            <div class="card__thumbnail"> <!--Element-->
+                <img class="card__img" src="images/image-qr-code.png" alt="QR Code"> <!--Element-->
+            </div>
+            <div class="card__text"> <!--Element-->
+                <h1 class="card__tittle-text"> <!--Element-->
+                    Improve your front-end <br>
+                    <br> skills by using this proyect
+                </h1>
+            
+            <div class="card__description-text"> <!--Element-->
+                Scan the QR code to visit Frontend <br>
+                Mentor and take your coding skills to<br>
+                the next level
+            </div>
         </div>
-        <div class="card-tittle">
-            <h1>Improve your front-end</h1>
-            <h1>skills by using this proyect</h1>
-        </div>
-        <div class="card-description">
-            Scan the QR code to visit Frontend <br>
-            Mentor and take your coding skills to<br>
-            the next level
+            <footer class="social-media"> <!--Block-->
+                <a href="https://github.com/ProgramerSerchx" class="button"> <!--Block--> <br>
+                    <i class="button__github-icon fa-brands fa-github fa-github--size"></i> <!--Modifier-->
+                </a>
+            </footer>
         </div>
     </div>
 </body>
+
 </html>
