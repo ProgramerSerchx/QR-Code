@@ -20,7 +20,7 @@ body{
     margin-top: 150px;
     margin-left: 710px;
     margin-right: 710px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     background-color: white;
 }
 
@@ -43,10 +43,6 @@ body{
     color: hsl(214, 9%, 50%);
 }
 
-.button{
-    font-size: 30px;
-    color: purple;
-}
 
 
 
