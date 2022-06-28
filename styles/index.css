@@ -43,7 +43,7 @@ body{
     color: hsl(214, 9%, 50%);
 }
 
-.fa-github--size{
+.button{
     font-size: 30px;
     color: purple;
 }
